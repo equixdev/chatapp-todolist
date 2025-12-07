@@ -1,42 +1,40 @@
 # ChatApp Todo List
 
-A small React + Redux Toolkit todo list app used for learning and demos.
+![Screenshot](screenshot1.png)
 
-This README contains just enough information to get the app running locally.
+A task management app built with:
+- React
+- Redux Toolkit
+- TypeScript
+- create-react-app
+- react-dnd
+- uuid
 
-Prerequisites
-- Node.js v16 or v18 installed (LTS recommended)
+Features:
+- Filtering by task type (active, completed or all)
+- Drag-and-drop task reordering 
+- UUID generation for task IDs
 
-Install
-1. Install dependencies:
+
+## Getting Started
+
+### Prerequisites
+- Node.js v16+ (LTS versions recommended)
+- npm or yarn
+
+### Installation & Running
 
 ```bash
-npm install
-```
-
-Run (development)
-
-```bash
+npm i
 npm start
 ```
 
-Open http://localhost:3000 in your browser. The dev server reloads on code changes.
+The app opens at `http://localhost:3000` with hot reload on code changes.
 
-Build (production)
+### Building for production
 
 ```bash
 npm run build
 ```
 
-This produces a `build/` folder you can serve with any static server (for example: `npx serve -s build`).
-
-Tests
-
-```bash
-npm test
-```
-
-Notes
-- This project uses `react-scripts@5.x` and TypeScript is pinned to `^4.9.x` for compatibility.
-- The `uuid` package provides its own TypeScript definitions, so no extra `@types/` package is required.
-- If you want to modernize the dev toolchain (reduce transitive vulnerabilities), consider migrating from Create React App to a Vite setup.
+The production build outputs to `build/` and is ready to deploy.
