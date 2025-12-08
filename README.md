@@ -1,6 +1,6 @@
 # ChatApp Todo List
 
-![Screenshot](screenshot1.png)
+![Screenshot](screenshot.png)
 
 A task management app built with:
 - React
